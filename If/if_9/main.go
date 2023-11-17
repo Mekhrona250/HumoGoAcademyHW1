@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 func main() {
-	var a,b int
+	var a,b float64
 	
 
 	fmt.Println("Введите число")
@@ -14,5 +14,3 @@ func main() {
 	
 	fmt.Println(b,a)
 }
-// 5 2
-// 3 4
