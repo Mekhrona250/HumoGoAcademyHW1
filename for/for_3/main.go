@@ -8,12 +8,10 @@ func main() {
 	
 for i :=b-1; i>=a+1; i-- {
 	fmt.Println(i)
-
-	
     
- 
-	
 
 }
+
+fmt.Println(b-a-1)
 
 }
