@@ -12,9 +12,9 @@ func main() {
 		
 
 	}
-	for i := dlinaMassiva - 1; i>=0; i-- {
-		fmt.Println(array[i])
+	for i := 0; i < dlinaMassiva / 2; i++ {
+		array[i], array[dlinaMassiva - i - 1]=array[dlinaMassiva - i -1], array[i]
 	}
-
+    fmt.Println(array)
 
 	}
